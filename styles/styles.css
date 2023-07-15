@@ -37,19 +37,64 @@
     font-size: 18px;
 }
 
-/*@media (max-width: 900px) {
-    h1 {
-      font-size: 18px;
-      text-align: center;
+
+ h2 {
+    font-family:  var(--heading-font-family);
+    font-size: 64px;
+ }
+
+ p {
+    font-family:  var(--default-font-family);
+    font-size: 16px;
+    line-height: 30px;
+    font-style: normal;
+    opacity: 0.7;
+    text-align: center;
+ }
+
+ a {
+    display: flex;
+    width: 300px;
+    padding: 18px 30px;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid var(--branding-color);
+    text-decoration: none;
+    color: var(--branding-color);
+    font-family: var(--default-font-family);
+    font-size: 16px;
+ }
+
+ .project-description {
+    padding: 125px 60px;
+ }
+
+@media (max-width: 900px) {
+
+    .project-description {
+        padding: 0;
+        text-align: center;
     }
-  
-    .footer {
-      display: none;
+    
+    a {
+    text-align: center;
+    margin: 0;
     }
+
+    h2 {
+    font-size: 40px;
+    }
+
+    .hero p{
+    font-size: 14px;
+    }
+
+    .hero h1 {
+    font-size: 50px;
+    }
+
+    .hero h4{
+    font-size:20px ;
+    }
+
   }
-  
-  @media (min-width: 900px) {
-    h1 {
-      color: red;
-    }
-  }*/
