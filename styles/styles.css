@@ -171,35 +171,59 @@
 
 @media (max-width: 900px) {
 
+    p {
+        margin:0 ;
+    }
+    .remove-margin {
+        margin-top: 0 !important;
+      }
+    
     .project-description {
         padding: 0;
         text-align: center;
     }
     
     a {
-    text-align: center;
-    margin: 0;
+        text-align: center;
+        margin: 0;
+    }
+    /*Adding display: block to the a selector will make it a block-level element, allowing you to apply a margin of 0 auto to center align it horizontally.
+Updating the margin property to 0 auto will set the left and right margins to auto, which will horizontally center the a element.*/
+    .content-container a{
+        display: block; 
+        margin: 0 auto;
     }
 
+
     h2 {
-    font-size: 40px;
+        font-size: 40px;
     }
 
     .hero p{
-    font-size: 14px;
+        font-size: 14px;
     }
 
     .hero h1 {
-    font-size: 50px;
+        font-size: 50px;
     }
 
     .hero h4{
-    font-size:20px ;
+        font-size:20px ;
     }
     .content-container h1 {
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
     }
 
+    .content-container h2 {
+        text-align: center;
+    }
+    footer .email-link {
+        font-size: 18px;;
+    }
+    .content-container {
+        padding: 50px 30px;
+     }
 
+   
   }
