@@ -5,6 +5,9 @@
     --default-font-family: "Poppins", sans-serif;
   }
 
+  nav {
+    background-color: var(--secondary-color);
+  }
 .catarinalogo {
     display: block;
     max-width: 70px;
